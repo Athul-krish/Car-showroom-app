@@ -1,87 +1,124 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from "react";
+import Navbar from "./Navbar";
+import "./AddCar.css";
 
 const AddCar = () => {
   return (
     <div>
-        <Navbar/>
-      <div className="container">
+      <Navbar />
+
+      <div className="container mt-5 mb-5">
+
+        <h2 className="text-center fw-bold text-primary mb-4">
+          <u>Add New Car</u>
+        </h2>
+
         <div className="row">
-            <div className="col col-12">
+          <div className="col-12">
 
-                <div className="row g-3">
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div className="row g-4">
 
-                        <label htmlFor="" className="form-label">Car ID:</label>
-                        <input type="text" className="form-control" />
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Car ID:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Car ID"
+                />
+              </div>
 
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Brand:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Brand"
+                />
+              </div>
 
-                        <label htmlFor="" className="form-label">Brand:</label>
-                        <input type="text" className="form-control" />
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Model:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Model"
+                />
+              </div>
 
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Fuel Type:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Fuel Type"
+                />
+              </div>
 
-                        <label htmlFor="" className="form-label">Model:</label>
-                        <input type="text" className="form-control" />
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Transmission:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Transmission"
+                />
+              </div>
 
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Price:</label>
+                <input
+                  type="number"
+                  className="form-control"
+                  placeholder="Enter Price"
+                />
+              </div>
 
-                        <label htmlFor="" className="form-label">Fuel Type:</label>
-                        <input type="text" className="form-control" />
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Color:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Color"
+                />
+              </div>
 
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <label className="form-label">Manufacturing Year:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Manufacturing Year"
+                />
+              </div>
 
-                        <label htmlFor="" className="form-label">Transmission:</label>
-                        <input type="text" className="form-control" />
+              <div className="col-12">
+                <label className="form-label">Image URL:</label>
+                <input
+                  type="url"
+                  className="form-control"
+                  placeholder="Paste Image URL"
+                />
+              </div>
 
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div className="col-12">
+                <label className="form-label">Description:</label>
+                <textarea
+                  rows="4"
+                  className="form-control"
+                  placeholder="Enter Description"
+                ></textarea>
+              </div>
 
-                        <label htmlFor="" className="form-label">Price:</label>
-                        <input type="number" name="" id="" className="form-control" />
-
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-                        <label htmlFor="" className="form-label">Color:</label>
-                        <input type="text" className="form-control" />
-
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-                        <label htmlFor="" className="form-label">Manufacturing Year:</label>
-                        <input type="text" className="form-control" />
-
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-                        <label htmlFor="" className="form-label">Image URL:</label>
-                        <input type="url" name="" id="" className="form-control" />
-
-                    </div>
-                    <div className="col col-12">
-
-                        <label htmlFor="" className="form-label">Description:</label>
-                        <textarea name="" id="" rows="4" className="form-control"></textarea>
-
-                    </div>
-                    <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-                        <button className="btn btn-primary">Add</button>
-
-                    </div>
-                </div>
+              <div className="col-12">
+                <button className="btn btn-success px-5 py-2 fw-bold">Add Car</button>
+              </div>
 
             </div>
+
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AddCar
+export default AddCar;
