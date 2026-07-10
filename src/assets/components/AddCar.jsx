@@ -6,9 +6,7 @@ const AddCar = () => {
   return (
     <div>
       <Navbar />
-
       <div className="container mt-5 mb-5">
-
         <h2 className="text-center fw-bold text-primary mb-4">
           <u>Add New Car</u>
         </h2>

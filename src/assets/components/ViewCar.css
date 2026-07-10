@@ -11,12 +11,13 @@ body{
 }
 
 
-.card-img-top{
-    width:100%;
-    height:240px;
-    object-fit:cover;
-}
 
+.card-img-top{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: 50% 35%;
+}
 .card-body{
     padding:20px;
 }

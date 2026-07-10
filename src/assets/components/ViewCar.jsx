@@ -120,6 +120,7 @@ const ViewCar = () => {
                     <img
                       src={value.image}
                       className="card-img-top"
+                      height="100"
                       alt={value.brand}
                     />
 

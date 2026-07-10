@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
       <div className="container">
         <a
           className="navbar-brand fw-bold fs-3"
-          href="/"
+          to="/"
           style={{ letterSpacing: "1px" }}
         >
           🚗 Car-App
@@ -30,21 +31,21 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
 
-            <a className="nav-link nav-item-custom" href="/add">
+            <Link className="nav-link nav-item-custom" to="/add">
               Add Car
-            </a>
+            </Link>
 
-            <a className="nav-link nav-item-custom" href="/search">
+            <Link className="nav-link nav-item-custom" to="/search">
               Search
-            </a>
+            </Link>
 
-            <a className="nav-link nav-item-custom" href="/delete">
+            <Link className="nav-link nav-item-custom" to="/delete">
               Delete
-            </a>
+            </Link>
 
-            <a className="nav-link nav-item-custom" href="/view">
+            <Link className="nav-link nav-item-custom" to="/view">
               View All
-            </a>
+            </Link>
 
           </div>
         </div>
