@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import AddCar from './assets/components/AddCar'
-import SearchCar from './assets/components/SearchCar'
-import DeleteCar from './assets/components/DeleteCar'
-import ViewCar from './assets/components/ViewCar'
-import Navbar from './assets/components/Navbar'
+import AddCar from './components/AddCar'
+import SearchCar from './components/SearchCar'
+import DeleteCar from './components/DeleteCar'
+import ViewCar from './components/ViewCar'
+import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
